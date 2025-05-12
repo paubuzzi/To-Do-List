@@ -6,8 +6,8 @@ import { Task } from '../../models/tasks.models';
 @Component({
   selector: 'app-tasks',
   imports: [FormsModule, CommonModule],
-  templateUrl: './todo.component.html',
-  styleUrl: './todo.component.css'
+  templateUrl: './to-do.component.html',
+  styleUrl: './to-do.component.css'
 })
 export class TodoComponent {
 [x: string]: any;
